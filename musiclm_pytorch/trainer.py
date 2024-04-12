@@ -143,7 +143,7 @@ def get_dataloader(ds, pad_to_longest = True, **kwargs):
 
 # semantic transformer trainer
 
-@beartype
+
 class MuLaNTrainer(nn.Module):
     def __init__(
         self,
